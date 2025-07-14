@@ -16,3 +16,7 @@ printf("Roll Number: ");
         scanf("%d", &s[i].roll);
 printf("Name: ");
         scanf(" %[^\n]", s[i].name);
+ printf("Marks: ");
+        scanf("%f", &s[i].marks);
+    }
+}
