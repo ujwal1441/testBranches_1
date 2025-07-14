@@ -14,3 +14,12 @@ void inputStudents(struct Student s[], int n) {
         printf("\nEnter details for student %d\n", i+1);
 printf("Roll Number: ");
         scanf("%d", &s[i].roll);
+
+int main() {
+    struct Student students[MAX_STUDENTS];
+    int choice, roll;
+
+    inputStudents(students, MAX_STUDENTS);
+
+    do {
+        printf("\nMenu:\n");
