@@ -27,4 +27,9 @@ int main() {
         printf("2. Search by Roll Number\n");
         printf("3. Exit\n");
         printf("Enter choice: ");
+        scanf("%d", &choice);
 
+        switch(choice) {
+            case 1:
+                displayStudents(students, MAX_STUDENTS);
+                break;
