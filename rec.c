@@ -24,3 +24,4 @@ void displayStudents(struct Student s[], int n) {
     printf("\nStudent Records:\n");
     for(int i = 0; i < n; i++) {
         printf("\nStudent %d\n", i+1);
+ printf("Roll Number: %d\n", s[i].roll);
