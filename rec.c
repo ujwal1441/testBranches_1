@@ -25,3 +25,4 @@ int main() {
         printf("\nMenu:\n");
         printf("1. Display all students\n");
         printf("2. Search by Roll Number\n");
+        printf("3. Exit\n");
