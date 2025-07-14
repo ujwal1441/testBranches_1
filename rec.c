@@ -22,3 +22,4 @@ void searchByRoll(struct Student s[], int n, int roll) {
         if(s[i].roll == roll) {
             printf("\nRecord Found:\n");
             printf("Roll Number: %d\n", s[i].roll);
+            printf("Name: %s\n", s[i].name);
