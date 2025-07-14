@@ -28,3 +28,7 @@ void searchByRoll(struct Student s[], int n, int roll) {
             break;
         }
     }
+if(!found)
+        printf("\nStudent with Roll Number %d not found.\n", roll);
+}
+
