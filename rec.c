@@ -23,3 +23,4 @@ int main() {
 
     do {
         printf("\nMenu:\n");
+        printf("1. Display all students\n");
