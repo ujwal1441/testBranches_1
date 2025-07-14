@@ -9,6 +9,33 @@ struct Student {
     float marks;
 };
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 void inputStudents(struct Student s[], int n) {
     for(int i = 0; i < n; i++) {
         printf("\nEnter details for student %d\n", i+1);
