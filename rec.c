@@ -23,3 +23,8 @@ void searchByRoll(struct Student s[], int n, int roll) {
             printf("\nRecord Found:\n");
             printf("Roll Number: %d\n", s[i].roll);
             printf("Name: %s\n", s[i].name);
+            printf("Marks: %.2f\n", s[i].marks);
+            found = 1;
+            break;
+        }
+    }
