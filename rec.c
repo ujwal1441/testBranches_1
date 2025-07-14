@@ -14,3 +14,10 @@ void inputStudents(struct Student s[], int n) {
         printf("\nEnter details for student %d\n", i+1);
 printf("Roll Number: ");
         scanf("%d", &s[i].roll);
+
+
+void searchByRoll(struct Student s[], int n, int roll) {
+    int found = 0;
+    for(int i = 0; i < n; i++) {
+        if(s[i].roll == roll) {
+            printf("\nRecord Found:\n");
