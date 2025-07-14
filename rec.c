@@ -14,3 +14,5 @@ void inputStudents(struct Student s[], int n) {
         printf("\nEnter details for student %d\n", i+1);
 printf("Roll Number: ");
         scanf("%d", &s[i].roll);
+printf("Name: ");
+        scanf(" %[^\n]", s[i].name);
