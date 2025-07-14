@@ -14,3 +14,13 @@ void inputStudents(struct Student s[], int n) {
         printf("\nEnter details for student %d\n", i+1);
 printf("Roll Number: ");
         scanf("%d", &s[i].roll);
+       
+
+
+
+       case 2:
+                printf("Enter Roll Number to search: ");
+                scanf("%d", &roll);
+                searchByRoll(students, MAX_STUDENTS, roll);
+                break;
+
