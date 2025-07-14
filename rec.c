@@ -20,3 +20,7 @@ printf("Name: ");
         scanf("%f", &s[i].marks);
     }
 }
+void displayStudents(struct Student s[], int n) {
+    printf("\nStudent Records:\n");
+    for(int i = 0; i < n; i++) {
+        printf("\nStudent %d\n", i+1);
