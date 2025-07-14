@@ -24,3 +24,4 @@ int main() {
     do {
         printf("\nMenu:\n");
         printf("1. Display all students\n");
+        printf("2. Search by Roll Number\n");
