@@ -26,3 +26,10 @@ printf("Roll Number: ");
         case 3:
                 printf("Exiting program.\n");
                 break;
+        default:
+                printf("Invalid choice. Try again.\n");
+        }
+    } while(choice != 3);
+
+    return 0;
+}
