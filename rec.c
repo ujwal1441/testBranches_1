@@ -23,4 +23,6 @@ printf("Roll Number: ");
                 scanf("%d", &roll);
                 searchByRoll(students, MAX_STUDENTS, roll);
                 break;
-
+        case 3:
+                printf("Exiting program.\n");
+                break;
